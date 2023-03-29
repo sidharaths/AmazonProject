@@ -1,0 +1,11 @@
+<suite name="Amazon1.0">
+	<test name="TestNG" allow-return-values="true">
+		<classes>
+		<class name="testlayer.LoginTest2" />
+		<class name="testlayer.SortingFilterationPagination" />
+		<class name="testlayer.YourAddressModule" />
+		<class name="testlayer.YourOrderModule" />
+		</classes>
+	</test>
+	
+</suite>

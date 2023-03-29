@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon1.0]">
+  <test thread-count="5" name="TestNG(failed)">
+    <classes>
+      <class name="testlayer.LoginTest2">
+        <methods>
+          <include name="close"/>
+          <include name="KeepSignedin"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- testlayer.LoginTest2 -->
+      <class name="testlayer.SortingFilterationPagination">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="Signin"/>
+          <include name="numofproductperpage"/>
+        </methods>
+      </class> <!-- testlayer.SortingFilterationPagination -->
+    </classes>
+  </test> <!-- TestNG(failed) -->
+</suite> <!-- Failed suite [Amazon1.0] -->
